@@ -1,6 +1,12 @@
-	순서
+	업데이트 하는 순서
 0. cmd 켜서 해당 프로젝트 경로로 들어가야함.
 1. git add *  // * = 모두 올린다는 의미
 2. git commit -m "보내고 싶은 메시지"
-3. git pull origin master //내려받기 
+3. git pull origin master //내려받기 * 하나의 컴퓨터로 진행할경우 하지않아도 상관없지만 왠만하면 습관화하는것이 중요.
 4. git push origin master //서버전송
+
+
+*다른 컴퓨터에서 프로젝트 받아서 사용하고 싶은 경우
+
+0. cmd 켜서 원하는 폴더로 경로이동 후 
+1. git clone https://github.com/kimujinu/Private-Javascript-study.git //내려받기 
