@@ -10,3 +10,5 @@
 
 0. cmd 켜서 원하는 폴더로 경로이동 후 
 1. git clone https://github.com/kimujinu/Private-Javascript-study.git //내려받기 한후 위의 업데이트 하는 순서 1번 반복
+
+*에러유발 테스트 
