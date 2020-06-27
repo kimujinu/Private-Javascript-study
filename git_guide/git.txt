@@ -9,11 +9,6 @@
 *다른 컴퓨터에서 프로젝트 받아서 사용하고 싶은 경우
 
 0. cmd 켜서 원하는 폴더로 경로이동 후 
-<<<<<<< HEAD
-1. git clone https://github.com/kimujinu/Private-Javascript-study.git //내려받기 한후 위의 업데이트 하는 순서 1번 반복
-
-*에러유발 테스트 
-=======
 1. git clone https://github.com/kimujinu/Private-Javascript-study.git // 한후 위의 업데이트 하는 순서 1~4번 반복
 
 *다른곳에서 프로젝트 업데이트를 하고 난후 다른 컴퓨터에서 해당 프로젝트 커밋 할때 
@@ -22,6 +17,5 @@
 1. git pull origin master // 내려받기 한후 1~4번 반복
 
 *만약에 pull을 하지 않고 코드 수정을 했는데 같은 파일을 건드린 경우(오류 발생)
-0. git stash(작업하는 컴퓨터가 에러가 나기전 프로젝트상태로 돌아가고 내가 고친 프로젝트 내용이 임시저장된다. 즉, 프로젝트가 pull하기전 상태로 돌아감)
-1. 
->>>>>>> 5bd9550dae527158e1c897d640f9a2f86f396975
+0. git status
+1. git commit -am ""
