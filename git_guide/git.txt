@@ -1,0 +1,6 @@
+	순서
+0. cmd 켜서 해당 프로젝트 경로로 들어가야함.
+1. git add *  // * = 모두 올린다는 의미
+2. git commit -m "보내고 싶은 메시지"
+3. git pull origin master //내려받기 
+4. git push origin master //서버전송
